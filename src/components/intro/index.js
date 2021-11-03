@@ -10,14 +10,13 @@ export default withContext(({ ctx }) => (
   <section className="flex-container intro">
     <div>
       <h2>
-        Send Ether and Ethereum Tokens to{" "}
+        Send L1 coin and ERC-20 tokens in Genesis L1 network to{" "}
         <span className="ms-green">Multiple</span> Ethereum Addresses
       </h2>
       <p>
-        With Multisend, you can distribute Ether and ERC-20 tokens to multiple wallet
-        addresses at once with a single transaction fee. MultiSends saves you an
-        incredible amount of time, energy and money in distributing Ethereum
-        assets.
+        With Multisend, you can distribute L1 coins and ERC-20 tokens to multiple wallet
+        addresses at once with a single transaction fee in Genesis L1 network. MultiSends saves you an
+        incredible amount of time, energy and money in coins and tokens distribution. 
       </p>
       {
         ctx.auth ? (
@@ -33,17 +32,6 @@ export default withContext(({ ctx }) => (
     </div>
     <div>
       <img src={imgs.miniMultisend} alt="mini-multisend" />
-    </div>
-    <div>
-      <h4>Get insights on our work, people and announcements</h4>
-      <div>
-        <div>
-        <input placeholder="Email address... " />
-        <button className="ms-btn wt-icon ms-green-bg">
-          <img src={icons.rightArrow} alt="icon" />
-        </button>
-        </div>
-      </div>
     </div>
     <RightBars />
     <LeftBars />
