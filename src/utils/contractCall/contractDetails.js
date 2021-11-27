@@ -1,4 +1,4 @@
-const contractAddress = "0xCB245b8BFB7367FFE11cf989BeB4816C71e5ce4a"
+const contractAddress = "0xf6DEF45995529050FE066bA735e1C0CC62e86d7F"
 const ABI = [
   {
     "name": "__init__",
